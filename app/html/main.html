@@ -1,0 +1,28 @@
+<html>
+	<head>
+	  <link rel="stylesheet" href="../css/styles.css">
+	  <script src="../js/lib/jquery-min.js"></script>
+	  <script src="../js/lib/ZohoEmbededAppSDK.min.js"></script>
+	  <script src="../js/main.js"></script>
+	  <script src="../js/button.js"></script>
+	</head>
+	<body>
+		<form id="courseForm" method="post">
+			<label for="поле1">Курс НБУ:</label>
+			<input type="text" id="NBUcourse" name="NBUcourse" readonly><br><br>
+	
+			<label for="поле2">Курс в Угоді:</label>
+			<input type="text" id="AgreementCourse" name="AgreementCourse" readonly><br><br>
+	
+			<label for="поле3">Різниця курсу у %:</label>
+			<input type="text" id="ExchangeDifference" name="ExchangeDifference" readonly><br><br>
+	
+			<input type="submit" id="courseButton" value="Записати курс в Угоду" disabled>
+		</form>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				initializeWidget();
+			});
+		</script>
+	</body>
+</html>

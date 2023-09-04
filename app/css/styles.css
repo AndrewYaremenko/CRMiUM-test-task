@@ -1,0 +1,13 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+textarea{
+	border: 0px;
+    background: #efecec;
+    height: 320px;
+    width: 95%;
+}
+form{
+    padding-left: 30px;
+}
